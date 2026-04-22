@@ -1,0 +1,17 @@
+{
+  "name": "qa-live-case-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
